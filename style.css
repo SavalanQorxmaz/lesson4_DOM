@@ -1,0 +1,47 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+#input {
+    padding: 10px;
+}
+
+#list-input {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+#list-input li {
+
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+
+#list-input li span {
+
+    float: right;
+
+}
+#list-input li span:hover {
+    cursor: pointer;
+}
+
+#add {
+    padding: 10px;
+   margin-left: 50px;
+}
